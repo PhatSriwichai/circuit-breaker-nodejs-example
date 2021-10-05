@@ -1,0 +1,17 @@
+{
+  "name": "circuit-breaker-nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "author": "phat.sriwichai.techa@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "brakes": "^3.1.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
